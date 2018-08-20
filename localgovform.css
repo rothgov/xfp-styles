@@ -1,0 +1,255 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css?family=Muli:400,600,700");
+
+body {
+  background-color: white;
+  font-family: "Muli", sans-serif;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+/* layout */
+
+.content.content-fullwidth {
+  margin: 2rem;
+}
+
+.article {
+  max-width: 48rem;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#progressbar > div {
+  width: 33%;
+  display: block;
+  padding: .5rem;
+  background-color: #3099f1;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.2) inset;
+}
+
+#progressbar {
+  display: block;
+  background-color: #eeeeee;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.2) inset;
+}
+
+#xform_layout {
+}
+
+.middle_main {
+}
+
+.xfpprogress {
+}
+
+.xfpclear {
+  font-size: 1.25rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .5rem;
+  margin-bottom: 1rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+}
+
+label {
+  display: block;
+  padding-bottom: 1rem;
+}
+
+
+.input {
+  display: block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+.xform_group > label {
+  font-size: 1rem;
+  display: block;
+  max-width: 24rem;
+  padding: .75rem;
+  margin-bottom: .75rem;
+  border-radius: .25rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dddddd;
+  background-color: #ffffff;
+}
+
+label > em {
+  font-size: .875rem;
+}
+
+.xfphelp {
+  display: block;
+  font-size: .875rem;
+  padding-bottom: .75rem;
+  margin-bottom: 1.5rem;
+}
+
+.xform_group {
+  display: block;
+}
+
+.xfields {
+  font-size: .875rem;
+  padding: .5rem;
+  border-radius: .25rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dddddd;
+  margin-bottom: 1rem;
+}
+
+.field {
+  font-size: 1rem;
+  padding: .75rem;
+  border-radius: .25rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dddddd;
+  margin-bottom: 1rem;
+}
+
+.input > textarea {
+  width: 24rem;
+  font-size: 1rem;
+  padding: .75rem;
+  border-radius: .25rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dddddd;
+  margin-bottom: .75rem;
+}
+
+.input > select {
+  font-size: .875rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  border-radius: .25rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dddddd;
+  margin-bottom: .75rem;
+}
+
+.xfpbutton.button.button--secondary.current-location {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.form__field.postcode-lookup {
+  font-size: .875rem;
+  padding: .5rem;
+  border-radius: .25rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dddddd;
+}
+
+.xfpbutton.button.button--secondary.postcode-lookup-btn {
+  display: inline-block;
+}
+
+.form__help.form__help--danger.postcode-error {
+  display: none;
+}
+
+.xfpbutton.button.button--secondary.add-pin-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.xfpbutton.button.button--secondary.remove-pin-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  font-size: .875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-right: .5rem;
+  background-color: #3099f1;
+  color: white;
+  border-radius: .25rem;
+  border-style: none;
+  font-family: "Muli", sans-serif;
+}
+
+.xfp_nav .button {
+  font-size: 1.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: #8dc150;
+  color: white;
+  border-radius: .25rem;
+  border-style: none;
+}
+
+.xfpaction.xfp_nav {
+  display: block;
+  height: 2rem;
+  margin-top: 1rem;
+}
+
+.button.float_right {
+  float: right
+}
+
+.button.float_left {
+  float: left;
+  font-size: .875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: #3099f1;
+  color: white;
+  border-radius: .25rem;
+  border-style: none;
+  font-family: "Muli", sans-serif;
+}
+
+.form__label {
+  font-size: 1.25rem;
+  display: block;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .5rem;
+}
+
+.location-map-google {
+  background-color: #dddddd;
+}
+
+
+table {
+  display: block;
+  clear: both;
+  text-align: left;
+}
