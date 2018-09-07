@@ -15,16 +15,15 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
-  color: #413358;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.25rem;
   margin-top: 1rem;
 }
 
 h2 {
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   color: #413358;
   margin: 0;
   font-weight: 400;
@@ -170,7 +169,7 @@ td {
 }
 
 .form__actions .button--primary {
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: .5rem;
@@ -182,7 +181,7 @@ td {
 }
 
 .form__actions .button--secondary {
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: .5rem;
