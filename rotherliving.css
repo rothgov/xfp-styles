@@ -13,7 +13,7 @@ body {
   padding: 0;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 1.375;
+  line-height: 1.5;
   font-family: 'Roboto', sans-serif;
   color: #413358;
 }
@@ -43,7 +43,6 @@ iframe {
 .progress-bar {
   display: block;
   background-color: #eeeeee;
-  border-radius: 1rem;
   overflow: hidden;
 }
 
@@ -65,7 +64,7 @@ iframe {
 
 .form__label {
   display: block;
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: .5rem;
 }
 
@@ -82,7 +81,6 @@ iframe {
   border-style: solid;
   border-width: 2px;
   border-color: #6a708e;
-  border-radius: .25rem;
 }
 
 .form__help {
@@ -93,7 +91,6 @@ iframe {
 .form__control > select {
   font-size: .875rem;
   padding: .5rem;
-  border-radius: .25rem;
   border-style: solid;
   border-width: 2px;
   border-color: #6a708e;
@@ -106,7 +103,6 @@ iframe {
   width: 24rem;
   font-size: 1rem;
   padding: .75rem;
-  border-radius: .25rem;
   border-style: solid;
   border-width: 2px;
   border-color: #6a708e;
@@ -119,7 +115,6 @@ iframe {
   width: 24rem;
   font-size: 1rem;
   padding: .75rem;
-  border-radius: .25rem;
   border-style: solid;
   border-width: 2px;
   border-color: #6a708e;
@@ -131,7 +126,6 @@ iframe {
   display: block;
   font-size: .875rem;
   padding: .5rem;
-  border-radius: .25rem;
   border-style: solid;
   border-width: 2px;
   border-color: #6a708e;
@@ -141,7 +135,6 @@ iframe {
 .postcode-lookup {
   font-size: .875rem;
   padding: .5rem;
-  border-radius: .25rem;
   border-style: solid;
   border-width: 2px;
   border-color: #6a708e;
@@ -157,10 +150,9 @@ iframe {
   margin-bottom: .5rem;
   background-color: #413358;
   color: #ffffff;
-  border-radius: .25rem;
   border-style: none;
   text-decoration: none;
-  font-family: Segoe UI,Segoe,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -185,7 +177,6 @@ td {
   padding-bottom: .5rem;
   background-color: #413358;
   color: #ffffff;
-  border-radius: .25rem;
   border-style: none;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -198,9 +189,8 @@ td {
   padding-bottom: .5rem;
   background-color: #6a708e;
   color: #413358;
-  border-radius: .25rem;
   border-style: none;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 button .button:hover, .button--primary:hover, .button--secondary:hover {
@@ -231,7 +221,6 @@ a.alert__list__item:hover {
   display: block;
   font-size: .875rem;
   padding: .5rem;
-  border-radius: .25rem;
   border-style: solid;
   border-width: 2px;
   border-color: #6a708e;
@@ -244,7 +233,6 @@ a.alert__list__item:hover {
   width: 24rem;
   font-size: 1rem;
   padding: .75rem;
-  border-radius: .25rem;
   border-style: solid;
   border-width: 2px;
   border-color: #6a708e;
@@ -260,7 +248,6 @@ a.alert__list__item:hover {
   display: block;
   font-size: .875rem;
   padding: .5rem;
-  border-radius: .25rem;
   border-style: solid;
   border-width: 2px;
   border-color: #6a708e;
@@ -273,7 +260,6 @@ a.alert__list__item:hover {
   width: 24rem;
   font-size: 1rem;
   padding: .75rem;
-  border-radius: .25rem;
   border-style: solid;
   border-width: 2px;
   border-color: #6a708e;
