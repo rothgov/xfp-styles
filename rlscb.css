@@ -1,9 +1,9 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
-@import url("https://fonts.googleapis.com/css?family=Muli:400,600,700");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 body {
   background-color: white;
-  font-family: "Muli", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 0;
   margin: 0;
   color: #444;
@@ -31,7 +31,6 @@ iframe {
 .progress-bar {
   display: block;
   background-color: #eeeeee;
-  border-radius: 1rem;
   overflow: hidden;
 }
 
@@ -55,7 +54,7 @@ iframe {
 
 .form__label {
   display: block;
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: .5rem;
 }
 
@@ -72,7 +71,6 @@ iframe {
   border-style: solid;
   border-width: 2px;
   border-color: #dddddd;
-  border-radius: .25rem;
 }
 
 .form__help {
@@ -83,7 +81,6 @@ iframe {
 .form__control > select {
   font-size: .875rem;
   padding: .5rem;
-  border-radius: .25rem;
   border-style: solid;
   border-width: 2px;
   border-color: #dddddd;
@@ -94,7 +91,6 @@ iframe {
   width: 24rem;
   font-size: 1rem;
   padding: .75rem;
-  border-radius: .25rem;
   border-style: solid;
   border-width: 2px;
   border-color: #dddddd;
@@ -104,7 +100,6 @@ iframe {
 .xfields {
   font-size: .875rem;
   padding: .5rem;
-  border-radius: .25rem;
   border-style: solid;
   border-width: 2px;
   border-color: #dddddd;
@@ -114,7 +109,6 @@ iframe {
 .postcode-lookup {
   font-size: .875rem;
   padding: .5rem;
-  border-radius: .25rem;
   border-style: solid;
   border-width: 2px;
   border-color: #dddddd;
@@ -131,10 +125,9 @@ iframe {
   margin-bottom: .5rem;
   background-color: #3099f1;
   color: white;
-  border-radius: .25rem;
   border-style: none;
   text-decoration: none;
-  font-family: "Muli", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -150,29 +143,27 @@ iframe {
 
 
 .form__actions .button--primary {
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
   background-color: green;
   color: white;
-  border-radius: .25rem;
   border-style: none;
-  font-family: "Muli", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .form__actions .button--secondary {
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
   background-color: #3099f1;
   color: white;
-  border-radius: .25rem;
   border-style: none;
-  font-family: "Muli", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .current-location {
