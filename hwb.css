@@ -1,6 +1,6 @@
 /* fonts */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Muli:400,700);
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -144,11 +144,14 @@ iframe {
   margin-right: .5rem;
   margin-top: .5rem;
   margin-bottom: .5rem;
-  background-color: #413358;
-  color: #ffffff;
-  border-style: none;
+  background-color: #ffffff;
+  color: #DA396D;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #DA396D;
+  border-radius: .25rem;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
 .form__actions {
@@ -165,31 +168,43 @@ td {
 }
 
 .form__actions .button--primary {
-  font-size: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  background-color: #413358;
-  color: #ffffff;
-  border-style: none;
-  font-family: 'Source Sans Pro', sans-serif;
+  margin-right: .5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  background-color: #ffffff;
+  color: #DA396D;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #DA396D;
+  border-radius: .25rem;
+  text-decoration: none;
+  font-family: 'Muli', sans-serif;
 }
 
 .form__actions .button--secondary {
-  font-size: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  background-color: #DA396D;
-  color: #413358;
-  border-style: none;
-  font-family: 'Roboto', sans-serif;
+  margin-right: .5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  background-color: #ffffff;
+  color: #DA396D;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #DA396D;
+  border-radius: .25rem;
+  text-decoration: none;
+  font-family: 'Muli', sans-serif;
 }
 
 button .button:hover, .button--primary:hover, .button--secondary:hover {
-  background-color: #ec4e99;
+  background-color: #DA396D;
   color: #fff;
   text-decoration: none
 }
@@ -204,7 +219,7 @@ a.alert__list__item {
 }
 
 a.alert__list__item:hover {
-  color: #000000;
+  color: #DA396D;
 }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
