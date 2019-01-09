@@ -174,10 +174,11 @@ td {
   padding-right: 1rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  background-color: #4a2a83;
+  background-color: #673ab7;
   color: #ffffff;
   border-style: none;
   font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 5px;
 }
 
 .form__actions .button--secondary {
@@ -186,14 +187,15 @@ td {
   padding-right: 1rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  background-color: #6a708e;
+  background-color: #673ab7;
   color: #413358;
   border-style: none;
   font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
 }
 
 button .button:hover, .button--primary:hover, .button--secondary:hover {
-  background-color:#ec4e99;
+  background-color: #4a2a83;
   color:#fff;
   text-decoration:none
 }
