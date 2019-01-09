@@ -1,6 +1,32 @@
 /* fonts */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+/* Fonts */
+
+@font-face {
+    font-family: 'Comic Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Comic Neue'),url(//brick.a.ssl.fastly.net/fonts/comicneue/400.woff) format('woff');
+}
+@font-face {
+    font-family: 'Comic Neue';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Comic Neue Italic'),url(//brick.a.ssl.fastly.net/fonts/comicneue/400i.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Comic Neue';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Comic Neue'),url(//brick.a.ssl.fastly.net/fonts/comicneue/700.woff) format('woff');
+}
+@font-face {
+    font-family: 'Comic Neue';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Comic Neue Italic'),url(//brick.a.ssl.fastly.net/fonts/comicneue/700i.woff) format('woff');
+}
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -14,7 +40,7 @@ body {
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Comic Neue', sans-serif;
 }
 
 h1 {
@@ -151,7 +177,7 @@ iframe {
   color: #ffffff;
   border-style: none;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Comic Neue', sans-serif;
 }
 
 
@@ -177,7 +203,7 @@ td {
   background-color: #673ab7;
   color: #ffffff;
   border-style: none;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Comic Neue', sans-serif;
   border-radius: 5px;
 }
 
@@ -190,7 +216,7 @@ td {
   background-color: #673ab7;
   color: #413358;
   border-style: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Comic Neue', sans-serif;
   border-radius: 5px;
 }
 
