@@ -96,6 +96,7 @@ iframe {
 	padding-right: 1rem;
 	padding-top: .5rem;
 	padding-bottom: .5rem;
+	margin-right: -1rem;
 	color: white;
 	border-style: none;
 	text-decoration: none;
