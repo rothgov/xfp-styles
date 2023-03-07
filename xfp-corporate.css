@@ -1,180 +1,137 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Mulish:wght@400;700&display=swap');
-
 body {
-  background-color: white;
-  font-family: "Muli", sans-serif;
-  padding: 0;
-  margin: 0;
-  color: #444;
-}
-
-h1 {
-  font-size: 3rem;
-  margin-top: 1rem;
-}
-
-h2 {
-  font-size: 2.25rem;
+	background-color: white;
+	font-family: 'Mulish', sans-serif;
+	padding: 0;
+	margin: 0;
 }
 
 iframe {
-  height: auto;
-  overflow-y: hidden;
+	height: auto;
+	overflow-y: hidden;
 }
 
 .visually-hidden {
-  display: none;
-  visibility: hidden;
+	display: none;
+	visibility: hidden;
 }
 
 .progress-bar {
-  display: block;
-  background-color: #eeeeee;
-  border-radius: 1rem;
-  overflow: hidden;
+	display: block;
+	border-radius: 1rem;
+	overflow: hidden;
 }
 
 .progress-bar__indicator {
-  width: 33%;
-  display: block;
-  padding: .5rem;
-  background-color: #3099f1;
-}
-
-.note {
-  
+	width: 33%;
+	display: block;
+	padding: .5rem;
 }
 
 .form__control {
-  display: block;
-  padding: 1rem;
-  background-color: #f7f7f7;
-  margin-bottom: 1rem;
+	display: block;
+	margin-bottom: 1rem;
 }
 
 .form__label {
-  display: block;
-  font-size: 1.25rem;
-  margin-bottom: .5rem;
+	display: block;
+	font-size: 1.25rem;
+	margin-bottom: .5rem;
 }
 
 .form__required {
-  font-size: .875rem;
+	font-size: .875rem;
 }
 
-.xform_group > label {
-  font-size: 1rem;
-  display: block;
-  padding: 1rem;
-  margin-bottom: .5rem;
-  background-color: #ffffff;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #dddddd;
-  border-radius: .25rem;
+.xform_group>label {
+	font-size: 1rem;
+	display: block;
+	padding: 1rem;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: .25rem;
 }
 
 .form__help {
-  display: block;
-  font-size: .875rem;
+	display: block;
 }
 
-.form__control > select {
-  font-size: .875rem;
-  padding: .5rem;
-  border-radius: .25rem;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #dddddd;
-  margin-bottom: .75rem;
+.form__control>select {
+	font-size: .875rem;
+	padding: .5rem;
+	border-radius: .25rem;
+	border-style: solid;
+	border-width: 2px;
 }
 
-.form__control > textarea {
-  width: 24rem;
-  font-size: 1rem;
-  padding: .75rem;
-  border-radius: .25rem;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #dddddd;
-  margin-bottom: .75rem;
+.form__control>textarea {
+	width: 24rem;
+	font-size: 1rem;
+	padding: .75rem;
+	border-radius: .25rem;
+	border-style: solid;
 }
 
 .xfields {
-  font-size: .875rem;
-  padding: .5rem;
-  border-radius: .25rem;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #dddddd;
-  margin-bottom: 1rem;
+	font-size: .875rem;
+	padding: .5rem;
+	border-radius: .25rem;
+	border-style: solid;
+	border-width: 2px;
 }
 
 .postcode-lookup {
-  font-size: .875rem;
-  padding: .5rem;
-  border-radius: .25rem;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #dddddd;
+	font-size: .875rem;
+	padding: .5rem;
+	border-radius: .25rem;
+	border-style: solid;
+	border-width: 2px;
 }
 
 .button {
-  font-size: .875rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  margin-right: .5rem;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
-  background-color: #3099f1;
-  color: white;
-  border-radius: .25rem;
-  border-style: none;
-  text-decoration: none;
-  font-family: "Muli", sans-serif;
+	font-size: .875rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	color: white;
+	border-style: none;
+	text-decoration: none;
+	font-family: 'Mulish', sans-serif;
 }
-
 
 .form__actions {
-  display: block;
-  margin-top: 1rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background-color: #dddddd;
+	display: block;
+	margin-top: 1rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
-
 .form__actions .button--primary {
-  font-size: 1.25rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  background-color: green;
-  color: white;
-  border-radius: .25rem;
-  border-style: none;
-  font-family: "Muli", sans-serif;
+	font-size: 1.25rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	border-style: none;
+	font-family: 'Mulish', sans-serif;
 }
 
 .form__actions .button--secondary {
-  font-size: 1.25rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  background-color: #3099f1;
-  color: white;
-  border-radius: .25rem;
-  border-style: none;
-  font-family: "Muli", sans-serif;
+	font-size: 1.25rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	border-style: none;
+	font-family: 'Mulish', sans-serif;
 }
 
 .current-location {
-  display: inline-block;
+	display: inline-block;
 }
